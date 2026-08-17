@@ -6,7 +6,7 @@
 
 <div align="center">
   <img src="https://api.iconify.design/fa6-solid/code.svg?color=white&width=24" alt="Code" />
-  <h2>What I Do</h2>
+  <h2>What I Do?</h2>
 </div>
 
 <table align="center" width="100%">
