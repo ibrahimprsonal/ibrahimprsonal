@@ -6,7 +6,7 @@
 
 <div align="center">
   <img src="https://api.iconify.design/fa6-solid/code.svg?color=white&width=24" alt="Code" />
-  <h2>What I Do?</h2>
+  <h2>What I Do? </h2>
 </div>
 
 <table align="center" width="100%">
@@ -14,7 +14,7 @@
     <td width="50%" align="center">
       <br />
       <img src="https://api.iconify.design/fa6-solid/laptop-code.svg?color=%233b82f6&width=35" alt="Dev" /><br/><br/>
-      <b>Software Development</b><br/>
+      <b>Software Development </b><br/>
       <br/>Building efficient applications, writing clean logic, and managing databases.<br /><br />
     </td>
     <td width="50%" align="center">
