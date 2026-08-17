@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050505" />
+      <stop offset="100%" stop-color="#121212" />
+    </linearGradient>
+    
+    <!-- Animated Gradient for glowing orbs -->
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="30" />
+    </filter>
+
+    <style>
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-12px); }
+        100% { transform: translateY(0px); }
+      }
+      .mac-window {
+        animation: float 6s ease-in-out infinite;
+      }
+      .title {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 800;
+        font-size: 36px;
+        fill: #f8fafc;
+      }
+      .subtitle {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        fill: #94a3b8;
+      }
+      .code {
+        font-family: "Fira Code", "Courier New", monospace;
+        font-size: 16px;
+        fill: #38bdf8;
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      .cursor {
+        animation: blink 1s step-end infinite;
+      }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#bg)" />
+
+  <circle cx="200" cy="100" r="200" fill="url(#glow1)" filter="url(#blur)">
+    <animate attributeName="cx" values="200; 600; 200" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="100; 300; 100" dur="25s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="300" r="220" fill="url(#glow2)" filter="url(#blur)">
+    <animate attributeName="cx" values="600; 200; 600" dur="22s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="300; 100; 300" dur="18s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="400" cy="200" r="240" fill="url(#glow3)" filter="url(#blur)">
+    <animate attributeName="cx" values="400; 200; 400" dur="25s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="200; 300; 200" dur="20s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Glassmorphism Mac Window -->
+  <g class="mac-window">
+    <rect x="80" y="60" width="640" height="280" rx="16" ry="16" fill="#1e1e24" fill-opacity="0.65" stroke="#3f3f46" stroke-width="1.5" />
+    
+    <!-- Mac Controls -->
+    <circle cx="104" cy="84" r="6" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5"/>
+    <circle cx="124" cy="84" r="6" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5"/>
+    <circle cx="144" cy="84" r="6" fill="#27c93f" stroke="#1aab29" stroke-width="0.5"/>
+
+    <!-- Address/Title Bar -->
+    <rect x="250" y="74" width="300" height="20" rx="4" ry="4" fill="#18181b" fill-opacity="0.8" />
+    <text x="400" y="88" font-family="-apple-system, sans-serif" font-size="11" fill="#71717a" text-anchor="middle">~ / dev / ibrahim_sheikh.md</text>
+
+    <!-- Top Border Line -->
+    <line x1="80" y1="105" x2="720" y2="105" stroke="#3f3f46" stroke-width="1" />
+
+    <!-- Main Content inside window -->
+    <text x="400" y="165" class="title" text-anchor="middle">Hi, I'm Ibrahim Sheikh 👋</text>
+    <text x="400" y="210" class="subtitle" text-anchor="middle">Bridging the gap between Clean Code and Stunning Visuals</text>
+    
+    <text x="400" y="270" class="code" text-anchor="middle">
+      <tspan fill="#f472b6">const</tspan> dev = { skills: [<tspan fill="#a3e635">'Code'</tspan>, <tspan fill="#a3e635">'Design'</tspan>, <tspan fill="#a3e635">'Video'</tspan>] };<tspan class="cursor" fill="#f8fafc">_</tspan>
+    </text>
+  </g>
+</svg>
