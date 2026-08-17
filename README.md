@@ -98,7 +98,7 @@
 <div align="center">
   <img src="https://api.iconify.design/fa6-solid/handshake.svg?color=white&width=24" alt="Connect" />
   <h2>Let's Connect</h2>
-  <p>If you have a project that needs a relentless focus on quality, reach out:</p>
+  <p>If you have a project that needs a relentless focus on quality, reach out: </p>
   <br />
   <a href="mailto:your.email@example.com">
     <img src="https://img.shields.io/badge/Email-1e1e1e?style=flat&logo=gmail&logoColor=white" alt="Email" />
