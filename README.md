@@ -1,7 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=35&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&height=100&lines=Hi%2C+I'm+Ibrahim+Sheikh;Software+Developer;Creative+Designer;Video+Editor" alt="Ibrahim Sheikh" />
-  
-  <p>Bridging the gap between Clean Code and Stunning Visuals</p>
+  <img src="assets/header.svg" width="100%" alt="Ibrahim Sheikh Banner" />
 </div>
 
 <br />
