@@ -1,6 +1,6 @@
 <!-- Header/Banner: MUST REPLACE WITH YOUR OWN CUSTOM DESIGN -->
 <div align="center">
-  <img src="https://via.placeholder.com/1000x300/000000/FFFFFF?text=Ibrahim+Sheikh+-+Creative+Developer+%26+Designer" alt="Ibrahim Sheikh Banner" width="100%">
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/475eb095746151.5e9ecde695f7a.gif" alt="Ibrahim Sheikh Banner" width="100%">
 </div>
 
 <h1 align="center">Hi there, I'm Ibrahim Sheikh 👋</h1>
